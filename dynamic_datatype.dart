@@ -2,7 +2,7 @@ void main()
 {
   dynamic prince=10;
   // print(prince);
-  // prince=20;
+  // prince="skillqode";
   // print(prince);
   // prince=2.1;
   // print(prince);
