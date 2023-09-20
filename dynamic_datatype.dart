@@ -1,9 +1,16 @@
 void main()
 {
-  dynamic prince="skillqode";
-  print(prince);
-  prince=20;
-  print(prince);
-  prince=2.1;
-  print(prince);
+  dynamic prince=10;
+  // print(prince);
+  // prince=20;
+  // print(prince);
+  // prince=2.1;
+  // print(prince);
+
+  dynamic skillqode=20;
+
+  print(prince-skillqode);
+  print(prince+skillqode);
+  print(prince*skillqode);
+  print(prince/skillqode);
 }
