@@ -8,4 +8,6 @@ void main()
   print("enter your lastname");
   String? lastname = stdin.readLineSync();
 
+  print("enter num");
+  dynamic? num = stdin.readLineSync();
 }
