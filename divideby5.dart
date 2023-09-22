@@ -6,10 +6,10 @@ void main()
 
   if(num%5==0)
   {
-    print("is divided by 5.");
+    print("$num is divided by 5.");
   }
   else
   {
-    print("is not divided by 5.");
+    print("$num is not divided by 5.");
   }
 }
