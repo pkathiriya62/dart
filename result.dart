@@ -1,15 +1,15 @@
 import 'dart:io';
 void main()
 {
-print("enter marks of maths:");
+print("Enter marks of maths:");
 dynamic maths = int.parse(stdin.readLineSync()!);
-print("enter marks of physics:");
+print("Enter marks of physics:");
 dynamic physics = int.parse(stdin.readLineSync()!);
-print("enter marks of chemistry:");
+print("Enter marks of chemistry:");
 dynamic chemistry = int.parse(stdin.readLineSync()!);
 if(maths<35||chemistry<35||physics<35)
 {
-print("you are fail");
+print("You are fail.work hard and don't be upset.");
 }
 else
 {
@@ -19,19 +19,19 @@ dynamic percentage=(total*100)/300;
 print("total percentage is :$percentage");
 if(percentage>=75)
 {
-print("you got A grade");
+print("you got A grade.");
 }
 else if(percentage>=60&&percentage<75)
 {
-print("you got B grade");
+print("you got B grade.");
 }
 else if(percentage>=45&&percentage<60)
 {
-print("you got C grade");
+print("you got C grade.");
 }
 else if(percentage>=35&&percentage<45)
 {
-print(" you got D grade");
+print(" you got D grade.");
 }
 }
 }
