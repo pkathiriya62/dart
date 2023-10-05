@@ -11,7 +11,6 @@ void main()
   print("enter age");
   dynamic age = stdin.readLineSync();
 
-  print(firstname);
-  print(lastname);
-  print(age);
+  print("firstname:$firstname lastname:$lastname");
+  print("age:$age");
 }
