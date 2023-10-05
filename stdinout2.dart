@@ -8,10 +8,10 @@ void main()
   print("enter your lastname");
   dynamic lastname = stdin.readLineSync();
 
-  print("enter num");
-  dynamic num = stdin.readLineSync();
+  print("enter age");
+  dynamic age = stdin.readLineSync();
 
   print(firstname);
   print(lastname);
-  print(num);
+  print(age);
 }
