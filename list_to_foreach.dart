@@ -10,4 +10,13 @@ void main()
   print(y);
   List c=x.toList();
   print(c);
+
+  int? d;
+  if(d==Null)
+  {
+    print("yes.is null");
+  }
+  else{
+    print("no.is not null");
+  }
 }
