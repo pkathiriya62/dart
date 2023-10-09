@@ -2,7 +2,6 @@ void main()
 {
   Set x=<int>{10,11,12,13,14,15};
   Set y=<int>{12,18,29,43};
-  Set z=<int>{2,5,10,11,32};
   Set a=x.union(y);
   print(a);
   Set b=x.intersection(y);
