@@ -26,5 +26,7 @@ class Macbookpro extends Laptop
   void main() {
   var macbookpro = Macbookpro();
   macbookpro.display();
+  var macbook = MacBook();
+  macbook.display();
 
 }
